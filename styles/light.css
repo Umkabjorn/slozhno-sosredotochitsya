@@ -10,12 +10,19 @@
   --intro-txt-color: #353430;
   --subtitle-color: #353430;
   --hover-nav-color: rgba(50, 49, 45, 0.4);
+<<<<<<< HEAD
+  --link-hover-color: #353430;
+=======
 
+>>>>>>> 2f8f8c7aba4f97b6052e0e34cb3a8aaae08ffdc6
 }
 
 @media (prefers-color-scheme: light) {
   :root {
     --button-border: 1px solid #353430;
+<<<<<<< HEAD
+=======
     
+>>>>>>> 2f8f8c7aba4f97b6052e0e34cb3a8aaae08ffdc6
   }
 }

@@ -12,7 +12,11 @@
   --intro-txt-color: #000028;
   --subtitle-color:#000028;
   --hover-nav-color: rgba(255, 0, 112, 0.4);
+<<<<<<< HEAD
+  --link-hover-color: #F1B2CE;
+=======
 
+>>>>>>> 2f8f8c7aba4f97b6052e0e34cb3a8aaae08ffdc6
 
 
 
@@ -24,4 +28,10 @@
   --page-background-img: url("../images/cover-image-dark.png");
 
   --button-border: 1px solid #FF0070;
+<<<<<<< HEAD
+
+  --left-column-width: 315px;
+  --left-column-width-tablet: 236px;
+=======
+>>>>>>> 2f8f8c7aba4f97b6052e0e34cb3a8aaae08ffdc6
 }
