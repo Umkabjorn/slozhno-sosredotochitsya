@@ -69,7 +69,6 @@ a {
   line-height: inherit;
 }
 
-<<<<<<< HEAD
 .section {
   margin-top: 50px;
 }
@@ -86,9 +85,4 @@ a {
   .section:first-child {
     margin-top: 60px;
   }
-=======
-.page {
-  font-family: var(--main-font-family);
-  font-size: var(--main-font-size);
->>>>>>> 2f8f8c7aba4f97b6052e0e34cb3a8aaae08ffdc6
 }
