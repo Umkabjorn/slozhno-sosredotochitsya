@@ -54,13 +54,13 @@
 }
 
 .header__theme-menu-button:focus {
-  border: 1px solid transparent;
-  border-bottom: 1px solid var(--hover-nav-color);
   outline: 0;
 }
 
 .header__theme-menu-button:focus-visible {
-  border-block-end-color: currentColor;
+  border: 1px solid transparent;
+  border-bottom: 1px solid var(--hover-nav-color);
+  outline: 0;
 }
 
 
@@ -297,6 +297,11 @@
 }
 
 @media (min-width: 768px) {
+  
+  .page {
+    padding: 20px;
+  }
+ 
   .header {
     padding-bottom: 183px;
   }
@@ -371,6 +376,11 @@
 }
 
 @media (min-width: 1024px) {
+
+  .page {
+    padding: 20px;
+  }
+  
   .header {
     padding-bottom: 134px;
   }
@@ -388,7 +398,7 @@
   }
 
   .heading {
-    padding-top: 285px;
+    padding-top: 273px;
     font-size: 157px;
     line-height: 129.53px;
   }
@@ -396,6 +406,10 @@
   .title-decor {
     max-width: 491px;
     margin-top: 114px;
+  }
+
+  .decorated-zone::before {
+    bottom: 20px;
   }
 
   .why, .how {
@@ -414,13 +428,15 @@
 
   .footer__title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    margin-top: -196px;
   }
 
   .footer__title::before {
     margin-bottom: 240px;
+    margin-top: 226px;
   }
 
-  .footer__title::before {
-    margin-top: 226px;
+  .footer__title::after {
+    margin-top: 235px;
   }
 }
