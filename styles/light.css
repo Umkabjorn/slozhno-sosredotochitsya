@@ -2,19 +2,30 @@
   --page-background-color: #fff1f7;
   --page-background-img: url("../images/cover-image-light.png");
   --rec-decor: none;
-  --accent-color: #FF8DCB;
+  --accent-color: #ff8dcb;
   --txt-color: #353430;
-  --heading-color: #FFC2E6;
-  --menu-txt-color:#353430;
+  --heading-color: #ffc2e6;
+  --menu-txt-color: #353430;
   --button-border: 1px solid #353430;
   --intro-txt-color: #353430;
   --subtitle-color: #353430;
   --hover-nav-color: rgba(50, 49, 45, 0.4);
-  --link-hover-color: #353430;
+  --link-hover-color: #32312d66;
 }
 
 @media (prefers-color-scheme: light) {
   :root {
+    --page-background-color: #fff1f7;
+    --page-background-img: url("../images/cover-image-light.png");
+    --rec-decor: none;
+    --accent-color: #ff8dcb;
+    --txt-color: #353430;
+    --heading-color: #ffc2e6;
+    --menu-txt-color: #353430;
     --button-border: 1px solid #353430;
+    --intro-txt-color: #353430;
+    --subtitle-color: #353430;
+    --hover-nav-color: rgba(50, 49, 45, 0.4);
+    --link-hover-color: #32312d66;
   }
 }
