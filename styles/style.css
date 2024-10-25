@@ -58,7 +58,7 @@
 
 .header__theme-menu-button:focus-visible {
   border: 1px solid transparent;
-  border-bottom: 1px solid var(--intro-txt-color);
+  border-bottom: 1px solid var(--menu-txt-color);
   outline: 0;
 }
 

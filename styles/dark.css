@@ -16,6 +16,7 @@
   --link-hover-color: #FF0070;
   --menu-txt-color:var(--accent-color);
   --subtitle-color:var(--page-background-color);
+  --hover-nav-color: rgba(255, 0, 112, 0.4);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -31,6 +32,7 @@
   --link-hover-color: #FF0070;
   --menu-txt-color: #ff0070;
   --subtitle-color:var(--page-background-color);
+  --hover-nav-color: rgba(255, 0, 112, 0.4);
   }
 }
 
