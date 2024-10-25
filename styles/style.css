@@ -295,8 +295,7 @@
 
 .footer-title {
   text-shadow: 2px 2px 0 var(--accent-color);
-  margin-bottom: 273px;
-  padding-left: 15px;
+  margin-bottom: 64px;
 }
 
 @media (min-width: 768px) {
@@ -383,6 +382,11 @@
   .footer {
     margin-top: 60px;
   }
+
+  .footer-title {
+    margin-bottom: 273px;
+    padding-left: 15px;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -437,6 +441,8 @@
   }
 
   .footer__title {
-    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+      margin-bottom: 273px;
+      padding-left: 15px;
+    }
   }
-}
+
