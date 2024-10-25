@@ -18,5 +18,19 @@
   --subtitle-color:var(--page-background-color);
 }
 
-
+@media (prefers-color-scheme: dark) {
+  :root{
+  --page-background-img: url("../images/cover-image-dark.png");
+  --page-background-color: #000028;
+  --accent-color: #ff0070;
+  --txt-color: #F1B2CE;
+  --heading-color:#DB00FF;
+  --rec-decor: visible;
+  --button-border: 1px solid #FF0070;
+  --intro-txt-color: #000028;
+  --link-hover-color: #FF0070;
+  --menu-txt-color: #ff0070;
+  --subtitle-color:var(--page-background-color);
+  }
+}
 
